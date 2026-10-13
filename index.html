@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="todolist.css" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="header">
+       <h1 class="heading">ToDo  LisT</h1>
+    </div>
+    <div class="container">
+        <div class="flexbox">
+
+            <button class="mic-symbol startbtn" onclick="voiceover()"><img src="mic_24dp_000000_FILL0_wght400_GRAD0_opsz24.png"></button>
+            <input class="input-bar js-input" type="text" placeholder="Write Something">
+            <input class="input-no js-phone" type="number" placeholder="Phone No.(optional)">
+            <input type="date" class="input-date js-date">
+            <button onclick="addtodo();" class="addButton">Add</button>
+        </div>
+        <div class="js-todo-list js-list-box"></div>
+    </div>
+
+    <script src="todolist.js"></script>
+</body>
+</html>
